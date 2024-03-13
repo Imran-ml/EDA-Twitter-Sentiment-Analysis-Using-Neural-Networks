@@ -85,7 +85,7 @@ We used the twitter sentiment analysis dataset and explored the data with differ
         <li>We prepared the text data of tweets by removing the unnecessary things.</li>
         <li>We trained model based on tensorflow with all settings. </li>
         <li>We evaluated thye model with different evaluation measures.</li>
-        <li>If you are interested to work on any text based project, you can simply apply the same methodolgy but might be you will need to change little settings like name of coloumns etc.</li>
+        <li>If you are interested to work on any text based project, you can simply apply the same methodolgy but might be you will need to change little settings like name             of coloumns etc.</li>
         <li>We worked on the classification problem and sepcifically we call it binary classification which is two class classification.</li>
 
 ## About Author
