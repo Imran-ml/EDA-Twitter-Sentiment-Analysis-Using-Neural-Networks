@@ -12,22 +12,22 @@
 
 ## Introduction
 
-Twitter, a platform with over 200 million users, serves as a rich canvas for expressing opinions and emotions, making it an invaluable resource for sentiment analysis. This project delves into analyzing Twitter data through natural language processing (NLP) to categorize sentiments into positive or negative outcomes, shedding light on public opinion and trends.
+Millions of people are using Twitter and expressing their emotions like happiness, sadness, angry, etc. The Sentiment analysis is also about detecting the emotions, opinion, assessment, attitudes, and took this into consideration as a way humans think. Sentiment analysis classifies the emotions into classes such as positive or negative. Nowadays, industries are interested to use textual data for semantic analysis to extract the view of people about their products and services. Sentiment analysis is very important for them to know the customer satisfaction level and they can improve their services accordingly. To work on the text data, they try to extract the data from social media platforms. There are a lot of social media sites like Google Plus, Facebook, and Twitter that allow expressing opinions, views, and emotions about certain topics and events. Microblogging site Twitter is expanding rapidly among all other online social media networking sites with about 200 million users. Twitter was founded in 2006 and currently, it is the most famous microblogging platform. In 2017 2 million users shared 8.3 million tweets in one hour. Twitter users use to post their thoughts, emotions, and messages on their profiles, called tweets. Words limit of a single tweet has 140 characters. Twitter sentiment analysis based on the NLP (natural language processing) field. For tweets text, we use NLP techniques like tokenizing the words, removing the stop words like I, me, my, our, your, is, was, etc. Natural language processing also plays a part to preprocess the data like cleaning the text and removing the special characters and punctuation marks. Sentimental analysis is very important because we can know the trends of people’s emotions on specific topics with their tweets.
 
-### Importance of Sentiment Analysis
+### Problem Description/Definition
 
-Sentiment analysis bridges the gap between data and emotional insight, enabling businesses and researchers to gauge public sentiment towards products, services, and global events. Utilizing advanced NLP techniques, this analysis provides a structured framework to understand and act on user-generated content on Twitter.
+To devise a sentimental analyzer for overcoming the challenges to identify the twitter tweets text sentiments (positive, negative) by implementing neural network using tensorflow.
 
-### Approach and Techniques
+### Evolution Measures
 
-Our methodology includes:
-- **Data Preprocessing**: Cleaning tweets by removing noise such as special characters and stop words.
-- **Tokenization**: Breaking down text into individual components for analysis.
-- **Sentiment Classification**: Employing machine learning models to accurately determine the sentiment of tweets.
+After training the model, we apply the evaluation measures to check that how the model is getting predictions. We will use the following evaluation measures to evaluate the performance of the models:
+    <li>Accuracy</li>
+    <li>Confusion matrix with plot</li>
+    <li>ROC Curve</li>
 
-### Project Goals
+### Technical Approach
 
-This repository aims to equip users with the necessary tools and knowledge to perform sentiment analysis on Twitter data efficiently. By offering code examples, detailed methodology, and insights into NLP techniques, we strive to support a wide range of applications from academic research to business intelligence.
+We are using python language in the implementations and Jupter Notebook that support the machine learning and data science projects. We will build tensorflow based model. We will use Sentiment 140 dataset and split that data into 70% for training and 30% for the testing purposes. After training on the model, we will evaluate the model to evaluate the performance of trained model.
 
 ## Environment Setup
 
@@ -64,7 +64,7 @@ To use this project, clone the repository and set up the environment as follows:
 
 1. **Clone the Repository**:
     ```bash
-    https://github.com/Imran-ml/Name-Entity-Recognition-and-Classification.git
+    https://github.com/Imran-ml/EDA-Twitter-Sentiment-Analysis-Using-NN.git
     ```
 2. **Setup the Environment**:
     - Navigate to the project directory and activate the virtual environment.
@@ -81,15 +81,12 @@ This project is made available under the MIT License.
 
 ## Conclusion
 
-Throughout this project, we engaged with the Twitter sentiment analysis dataset, employing various exploration techniques to unveil insights. Our journey involved meticulous preparation of tweet text data, where we stripped away extraneous elements to refine our dataset for analysis.
-
-Leveraging TensorFlow, we meticulously trained a model tailored for sentiment analysis. This process was not only about model architecture but also about fine-tuning all settings to align with our specific data characteristics.
-
-The evaluation phase brought our attention to diverse measures, ensuring a comprehensive understanding of our model's performance. Through this rigorous process, we've demonstrated that the methodologies applied here are not only relevant for sentiment analysis but can be adapted for broader text-based projects. Adaptations might include minor adjustments, such as column name changes, to fit the specifics of new datasets.
-
-Our work primarily focused on binary classification, tackling the challenge of distinguishing between two sentiment classes. This specificity underlines the project's contribution to the domain of sentiment analysis, providing a blueprint for similar studies.
-
-For those interested in diving into text-based analysis, our project showcases a replicable methodology, emphasizing the adaptability of our approach to various text analysis challenges.
+We used the twitter sentiment analysis dataset and explored the data with different ways:
+        <li>We prepared the text data of tweets by removing the unnecessary things.</li>
+        <li>We trained model based on tensorflow with all settings. </li>
+        <li>We evaluated thye model with different evaluation measures.</li>
+        <li>If you are interested to work on any text based project, you can simply apply the same methodolgy but might be you will need to change little settings like name of coloumns etc.</li>
+        <li>We worked on the classification problem and sepcifically we call it binary classification which is two class classification.</li>
 
 ## About Author
 
@@ -100,4 +97,4 @@ For those interested in diving into text-based analysis, our project showcases a
     - LinkedIn: [Profile](linkedin.com/in/muhammad-imran-zaman)
     - Google Scholar: [Profile](https://scholar.google.com/citations?user=ulVFpy8AAAAJ&hl=en)
     - YouTube: [Channel](https://www.youtube.com/@consolioo)
-- **Project Repository**: [GitHub Repo](https://github.com/Imran-ml/Name-Entity-Recognition-and-Classification.git)
+- **Project Repository**: [GitHub Repo](https://github.com/Imran-ml/EDA-Twitter-Sentiment-Analysis-Using-NN.git)
