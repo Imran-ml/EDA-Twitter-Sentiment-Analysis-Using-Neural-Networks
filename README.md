@@ -29,6 +29,34 @@ After training the model, we apply the evaluation measures to check that how the
 
 We are using python language in the implementations and Jupter Notebook that support the machine learning and data science projects. We will build tensorflow based model. We will use Sentiment 140 dataset and split that data into 70% for training and 30% for the testing purposes. After training on the model, we will evaluate the model to evaluate the performance of trained model.
 
+### Implementing Tensorflow Based Model for Training
+
+<h4> Step 1</h4>
+- The input to model is 500 words because these are the number features/words that we extracted above from text of tweets.
+
+<h4> Step 2</h4>
+- Embeddings provide the presentation of words and their relative meanings. Like in this, we are feeding the limit of maximum words, lenght of input words and the inputs of previous layer. 
+
+<h4> Step 3</h4>
+- LSTM (long short term memory) save the words and predict the next words based on the previous words. LSTM is a sequance predictor of next coming words.
+
+<img src="https://static.wixstatic.com/media/3eee0b_969c1d3e8d7943f0bd693d6151199f69~mv2.gif">
+<h4> Ref: https://static.wixstatic.com/media/3eee0b_969c1d3e8d7943f0bd693d6151199f69~mv2.gif </h4>
+
+<h4> Step 4</h4>
+- Dense layer reduce the outputs by getting inputs from Faltten layer. Dense layer use all the inputs of previous layer neurons and perform calculations and send 256 outputs
+
+<h4> Step 5</h4>
+- Activation function is node that is put at the end of all layers of neural network model or in between neural network layers. Activation function help to decide which neuron should be pass and which neuron should fire. So activation function of node defines the output of that node given an input or set of inputs. 
+
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*mcJfRvd9zarAbkHppFRrCQ.gif">
+<h4> Ref: https://miro.medium.com/v2/resize:fit:1400/1*mcJfRvd9zarAbkHppFRrCQ.gif </h4>
+
+<h4> Step 6</h4>
+- Droupout layer drop some neurons from previous layers. why we apply this? We apply this to avoid the overfitting problems. In overfitting, model give good accuracy on training time but not good on testing time.
+<img src="https://i.imgur.com/a86utxY.gif">
+<h4> Ref: https://i.imgur.com/a86utxY.gif </h4>
+
 ## Environment Setup
 
 **Prerequisites**: Ensure Python 3.6 or newer is installed on your system.
