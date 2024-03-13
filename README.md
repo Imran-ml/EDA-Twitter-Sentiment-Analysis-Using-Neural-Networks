@@ -18,7 +18,7 @@ Millions of people are using Twitter and expressing their emotions like happines
 
 To devise a sentimental analyzer for overcoming the challenges to identify the twitter tweets text sentiments (positive, negative) by implementing neural network using tensorflow.
 
-### Evolution Measures
+### Evaluation Measures
 
 After training the model, we apply the evaluation measures to check that how the model is getting predictions. We will use the following evaluation measures to evaluate the performance of the models:
     <li>Accuracy</li>
