@@ -72,8 +72,8 @@ To use this project, clone the repository and set up the environment as follows:
 
 ## Resources
 
-- **Kaggle Notebook**: [View Notebook](https://www.kaggle.com/code/muhammadimran112233/name-entity-recognition-and-classification)
-- **Dataset**: [View Dataset](https://www.kaggle.com/datasets/muhammadimran112233/clinical-documents-on-syndromes-disease)
+- **Kaggle Notebook**: [View Notebook](https://www.kaggle.com/code/muhammadimran112233/eda-twitter-sentiment-analysis-using-nn)
+- **Dataset**: [View Dataset](https://www.kaggle.com/datasets/kazanova/sentiment140)
 
 ## License
 
@@ -81,17 +81,15 @@ This project is made available under the MIT License.
 
 ## Conclusion
 
-We applied various techniques in data preparation and feature extraction. Initially, using the TF-IDF technique for feature extraction did not yield satisfactory results. However, switching to a Sequence extractor using TensorFlow significantly improved our outcomes. Data preprocessing, feature extraction, and hyperparameter tuning were crucial in enhancing the RNN's performance, whereas the Random Forest model underperformed.
+Throughout this project, we engaged with the Twitter sentiment analysis dataset, employing various exploration techniques to unveil insights. Our journey involved meticulous preparation of tweet text data, where we stripped away extraneous elements to refine our dataset for analysis.
 
-For hyperparameter tuning in deep learning models, it's essential to adjust them based on the problem at hand, train, and test the model to evaluate its performance thoroughly. In the case of the Random Forest model, employing a GRID SEARCH approach allows for training across a spectrum of hyperparameters to identify the optimal ones for the final model.
+Leveraging TensorFlow, we meticulously trained a model tailored for sentiment analysis. This process was not only about model architecture but also about fine-tuning all settings to align with our specific data characteristics.
 
-### Hyperparameters for RNN:
-After tuning, the optimal hyperparameters included using the Sigmoid activation function for binary output, binary cross-entropy for a two-class classification problem, and the RMSPROP optimizer for enhanced performance. Experimenting with different epochs and batch sizes, we found that 20 epochs and a batch size of 500 were ideal.
+The evaluation phase brought our attention to diverse measures, ensuring a comprehensive understanding of our model's performance. Through this rigorous process, we've demonstrated that the methodologies applied here are not only relevant for sentiment analysis but can be adapted for broader text-based projects. Adaptations might include minor adjustments, such as column name changes, to fit the specifics of new datasets.
 
-### Hyperparameters for RF:
-The best parameters for the Random Forest model were identified through grid search, resulting in: {'n_estimators': 200, 'max_features': 'sqrt', 'max_depth': 8, 'criterion': 'gini'}.
+Our work primarily focused on binary classification, tackling the challenge of distinguishing between two sentiment classes. This specificity underlines the project's contribution to the domain of sentiment analysis, providing a blueprint for similar studies.
 
-The RNN model excelled due to its capability to remember information from previous instances, providing superior results.
+For those interested in diving into text-based analysis, our project showcases a replicable methodology, emphasizing the adaptability of our approach to various text analysis challenges.
 
 ## About Author
 
