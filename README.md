@@ -1,4 +1,4 @@
-# EDA: Twitter Sentiment Analysis Using NN
+# EDA: Twitter Sentiment Analysis Using Neural Networks
 
 ## Table of Contents
 
@@ -92,7 +92,7 @@ To use this project, clone the repository and set up the environment as follows:
 
 1. **Clone the Repository**:
     ```bash
-    https://github.com/Imran-ml/EDA-Twitter-Sentiment-Analysis-Using-NN.git
+    https://github.com/Imran-ml/EDA-Twitter-Sentiment-Analysis-Using-Neural-Networks.git
     ```
 2. **Setup the Environment**:
     - Navigate to the project directory and activate the virtual environment.
@@ -125,4 +125,4 @@ We used the twitter sentiment analysis dataset and explored the data with differ
     - LinkedIn: [Profile](linkedin.com/in/muhammad-imran-zaman)
     - Google Scholar: [Profile](https://scholar.google.com/citations?user=ulVFpy8AAAAJ&hl=en)
     - YouTube: [Channel](https://www.youtube.com/@consolioo)
-- **Project Repository**: [GitHub Repo](https://github.com/Imran-ml/EDA-Twitter-Sentiment-Analysis-Using-NN.git)
+- **Project Repository**: [GitHub Repo](https://github.com/Imran-ml/EDA-Twitter-Sentiment-Analysis-Using-Neural-Networks.git)
